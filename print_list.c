@@ -19,7 +19,7 @@ int insert_node(struct ll_node** head_ptr, int counter)
 	new_node->next = NULL;
 
 	if (*head_ptr == NULL) {
-		*head_ptr = new_node;
+		*head_ptr = new_node; 
 		return 0;
 	}
 
